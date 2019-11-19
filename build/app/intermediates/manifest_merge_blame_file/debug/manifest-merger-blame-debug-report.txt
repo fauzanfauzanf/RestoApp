@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.resto_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:9:5-66
+14-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:10:5-79
+15-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->[:location] /Users/fauzan/Documents/projects/flutter/resto_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+16-->[:location] /Users/fauzan/Documents/projects/flutter/resto_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+17
+18    <application
+18-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:11:5-34:19
+19        android:name="io.flutter.app.FlutterApplication"
+19-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:12:9-57
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] /Users/fauzan/.gradle/caches/transforms-2/files-2.1/74d699bf85e1b864120ba32a283168db/core-1.1.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:14:9-43
+23        android:label="resto_app" >
+23-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:13:9-34
+24        <activity
+24-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:15:9-33:20
+25            android:name="io.resto_app.MainActivity"
+25-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:16:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:19:13-144
+27            android:hardwareAccelerated="true"
+27-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:20:13-47
+28            android:launchMode="singleTop"
+28-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:17:13-43
+29            android:theme="@style/LaunchTheme"
+29-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:18:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:21:13-55
+31
+32            <!--
+33                 This keeps the window background of the activity showing
+34                 until Flutter renders its first frame. It can be removed if
+35                 there is no splash screen (such as the default splash screen
+36                 defined in @style/LaunchTheme).
+37            -->
+38            <meta-data
+38-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:26:13-28:40
+39                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+39-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:27:17-82
+40                android:value="true" />
+40-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:28:17-37
+41
+42            <intent-filter>
+42-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:29:13-32:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:30:17-68
+43-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:30:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:31:17-76
+45-->/Users/fauzan/Documents/projects/flutter/resto_app/android/app/src/main/AndroidManifest.xml:31:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->[com.google.android.gms:play-services-base:16.0.1] /Users/fauzan/.gradle/caches/transforms-2/files-2.1/ce482cd616a56b9096bbe16a6a46fff2/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+49            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+49-->[com.google.android.gms:play-services-base:16.0.1] /Users/fauzan/.gradle/caches/transforms-2/files-2.1/ce482cd616a56b9096bbe16a6a46fff2/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+50            android:exported="false"
+50-->[com.google.android.gms:play-services-base:16.0.1] /Users/fauzan/.gradle/caches/transforms-2/files-2.1/ce482cd616a56b9096bbe16a6a46fff2/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+51-->[com.google.android.gms:play-services-base:16.0.1] /Users/fauzan/.gradle/caches/transforms-2/files-2.1/ce482cd616a56b9096bbe16a6a46fff2/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+52
+53        <meta-data
+53-->[com.google.android.gms:play-services-basement:16.0.1] /Users/fauzan/.gradle/caches/transforms-2/files-2.1/29f432e8b8e66e3657f9ec4e015496f4/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+54            android:name="com.google.android.gms.version"
+54-->[com.google.android.gms:play-services-basement:16.0.1] /Users/fauzan/.gradle/caches/transforms-2/files-2.1/29f432e8b8e66e3657f9ec4e015496f4/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+55            android:value="@integer/google_play_services_version" />
+55-->[com.google.android.gms:play-services-basement:16.0.1] /Users/fauzan/.gradle/caches/transforms-2/files-2.1/29f432e8b8e66e3657f9ec4e015496f4/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+56    </application>
+57
+58</manifest>
